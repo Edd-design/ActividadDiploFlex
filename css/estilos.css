@@ -1,0 +1,88 @@
+/* style.css */
+
+.big{
+  outline: 3px solid gray;
+  height: 800px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 33px;
+  display: flex;
+  flex-direction: row;   /*column row row-reverse column-reverse */
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.medium01{
+  outline: 3px solid gray;
+  height: 180px;
+  width: 1134px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;   /*column row row-reverse column-reverse */
+  flex-wrap: nowrap;
+   /*flex-flow: row nowrap;*/
+  justify-content: space-around;
+}
+.rojo{
+  background: red;
+  width: 230px;
+  height: 100px;
+  margin-top: 25px;	
+  margin-left: 20px;
+}
+.azul{
+  background: lightblue;
+  width: 230px;
+  height: 100px;
+  margin-top: 25px;
+}
+
+
+.medium02{
+  outline: 3px solid gray;
+  height: 250px;
+  width: 1134px;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;   /*column row row-reverse column-reverse */
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+.verde{
+  background: green;
+  width: 250px;
+  height: 200px;
+}
+.naranja{
+  background: orange;
+  width: 250px;
+  height: 200px;
+}
+.black{
+  background: black;
+  width: 250px;
+  height: 200px;
+}
+
+
+.medium03{
+  outline: 3px solid gray;
+  height: 150px;
+  width: 1134px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;   /*column row row-reverse column-reverse */
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.teal{
+  background: teal;
+  width: 230px;
+  height: 100px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
